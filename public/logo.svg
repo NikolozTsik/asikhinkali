@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Burgundy background -->
+  <rect width="100" height="100" rx="18" fill="#6B1A2A"/>
+
+  <!-- Top horizontal bar -->
+  <line x1="15" y1="27" x2="85" y2="27"
+        stroke="#C9973A" stroke-width="5.5" stroke-linecap="round"/>
+
+  <!-- Large outer C arc — starts top-right, sweeps left/down/right, ends bottom-right -->
+  <path d="M 81 27 A 34 34 0 1 0 81 73"
+        stroke="#C9973A" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Inner vertical stem -->
+  <line x1="50" y1="27" x2="50" y2="73"
+        stroke="#C9973A" stroke-width="5.5" stroke-linecap="round"/>
+
+  <!-- Inner b-loop: D-curve on right side of stem -->
+  <path d="M 50 45 C 80 45 80 73 50 73"
+        stroke="#C9973A" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+</svg>
